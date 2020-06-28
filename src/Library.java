@@ -1,4 +1,8 @@
 public class Library {
-    private Book book;
+    Book[] bookList = Book.values();
     private int bookTypeCount;
+
+    public Library(int bookTypeCount) {
+        this.bookTypeCount = bookTypeCount;
+    }
 }
