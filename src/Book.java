@@ -25,7 +25,7 @@ public enum Book {
 
     public void printBook(){
         System.out.print("No." + bookId + "　タイトル：" + bookTitle + "　著者：" + bookAuthor);
-        System.out.println(" ジャンル：" + bookType.getBookType());
+        System.out.println(" ジャンル：" + bookType.getBookTypeName());
     }
 
     //ゲッター（本の情報取得）
@@ -41,7 +41,7 @@ public enum Book {
         return bookAuthor;
     }
 
-    public BookType getBookType() {
-        return bookType;
+    public String getBookType() {
+        return bookType.getBookTypeName();
     }
 }
