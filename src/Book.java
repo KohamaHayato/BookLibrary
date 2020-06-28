@@ -28,6 +28,7 @@ public enum Book {
         System.out.println(" ジャンル：" + bookType.getBookType());
     }
 
+    //ゲッター（本の情報取得）
     public int getBookId() {
         return bookId;
     }

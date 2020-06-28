@@ -1,3 +1,4 @@
+//本のジャンル
 public enum BookType {
     Technical(0,"専門書"),
     Cook(1,"料理本"),
@@ -12,6 +13,7 @@ public enum BookType {
         this.bookType = bookType;
     }
 
+   //ゲッター（本のジャンル）
    public int getBookTypeId(){
         return bookTypeId;
    }
