@@ -6,11 +6,11 @@ public enum BookType {
     Sports(3,"スポーツ");
 
     private int bookTypeId;
-    private String bookType;
+    private String bookTypeName;
 
-    BookType(int bookTypeId,String bookType){
+    BookType(int bookTypeId,String bookTypeName){
         this.bookTypeId = bookTypeId;
-        this.bookType = bookType;
+        this.bookTypeName = bookTypeName;
     }
 
    //ゲッター（本のジャンル）
@@ -18,7 +18,7 @@ public enum BookType {
         return bookTypeId;
    }
 
-   public String getBookType(){
-        return  bookType;
+   public String getBookTypeName(){
+        return  bookTypeName;
    }
 }
